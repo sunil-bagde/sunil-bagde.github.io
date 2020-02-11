@@ -12,9 +12,11 @@ module.exports = withCSS(
       return {
         "/": { page: "/" },
         "/about": { page: "/about" },
+        "/posts": { page: "/posts" },
+        "/contact": { page: "/contact" },
       };
     },
     //assetPrefix: '',
-    assetPrefix: !debug ? "im-sunil.github.io" : "",
+    assetPrefix: !debug ? "im-sunil.github.io/" : "",
   })
 );
