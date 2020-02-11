@@ -5,10 +5,7 @@ import NProgress from "nprogress";
 
 import config from "../site.config";
 
-Router.events.on("routeChangeComplete", url => url);
-
 Router.onRouteChangeStart = url => {
-  console.log(`Loading: ${url}`);
   NProgress.start();
 };
 

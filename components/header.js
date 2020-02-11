@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "./active-link";
+
 import config from "../site.config";
+import BasePathLink from "./BasePathLink";
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -37,11 +39,11 @@ export default class Header extends React.Component {
       >
         <div className="w-full container mx-auto flex flex-wrap items-center mt-0 py-3 xs:px-4 sm:px-4 md:px-4 lg:px-0">
           <div className="brand justify-between flex items-center xs:w-full sm:w-full md:w-full md:px-0 lg:px-0 lg:w-1/2">
-            <Link href="/">
+            <BasePathLink href="/">
               <a className="flex text-black font-bold no-underline hover:no-underline">
                 <span className="text-lg">{config.siteTitle}</span>
               </a>
-            </Link>
+            </BasePathLink>
           </div>
 
           <nav
@@ -52,24 +54,24 @@ export default class Header extends React.Component {
           >
             <ul className="lg:flex flex-1 items-center lg:justify-end md:px-0 py-2">
               <li className="lg:mr-3 lg:ml-3 lg:invisible xs:pb-1">
-                <Link activeClassName="active" href="/">
+                <BasePathLink href="/">
                   <a className="text-gray-600 hover:underline">Home</a>
-                </Link>
+                </BasePathLink>
               </li>
               <li className="lg:mr-3 lg:ml-3 xs:py-1 sm:py-3">
-                <Link activeClassName="active" href="/about">
+                <BasePathLink href="/about">
                   <a className="text-gray-600 hover:underline">About</a>
-                </Link>
+                </BasePathLink>
               </li>
               <li className="lg:mr-3 lg:ml-3 xs:py-1 sm:py-3">
-                <Link activeClassName="active" href="/posts">
+                <BasePathLink href="/posts">
                   <a className="text-gray-600 hover:underline">Posts</a>
-                </Link>
+                </BasePathLink>
               </li>
               <li className="lg:mr-3 lg:ml-3 xs:py-1 sm:py-3">
-                <Link activeClassName="active" href="/contact">
+                <BasePathLink href="/contact">
                   <a className="text-gray-600 hover:underline">Contact</a>
-                </Link>
+                </BasePathLink>
               </li>
             </ul>
           </nav>
@@ -77,25 +79,25 @@ export default class Header extends React.Component {
         <nav className="py-3 px-4 lg:hidden xl:hidden" role="navigation">
           <ul className="flex items-center justify-between">
             <li className="">
-              <Link href="/">
+              <BasePathLink href="/">
                 <a className="text-gray-600 font-normal">Home</a>
-              </Link>
+              </BasePathLink>
             </li>
 
             <li>
-              <Link href="/about">
+              <BasePathLink href="/about">
                 <a className="text-gray-600 font-normal">About</a>
-              </Link>
+              </BasePathLink>
             </li>
             <li>
-              <Link href="/posts">
+              <BasePathLink href="/posts">
                 <a className="text-gray-600 font-normal">Posts</a>
-              </Link>
+              </BasePathLink>
             </li>
             <li className="">
-              <Link href="/contact">
+              <BasePathLink href="/contact">
                 <a className="text-gray-600 font-normal">Contact</a>
-              </Link>
+              </BasePathLink>
             </li>
           </ul>
         </nav>
