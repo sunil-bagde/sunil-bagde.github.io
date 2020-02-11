@@ -1,0 +1,62 @@
+{
+  "name": "im-sunil.github.io",
+  "private": false,
+  "description": "Personal website running on Next.js & React.",
+  "version": "0.1.0",
+  "author": "Sunil Bagde <hello@im-sunil.github.io>",
+  "dependencies": {
+    "@mdx-js/loader": "^1.5.3",
+    "@mdx-js/react": "^1.5.5",
+    "@next/mdx": "^9.1.7",
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.7.3",
+    "babel-plugin-macros": "^2.8.0",
+    "babel-plugin-preval": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "moment": "^2.24.0",
+    "next": "^9.1.7",
+    "nextjs-sitemap-generator": "^0.4.2",
+    "nprogress": "^0.2.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-syntax-highlighter": "^12.2.1",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "rss": "^1.2.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -b master -d out"
+  },
+  "keywords": [
+    "next",
+    "blog"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-sunil/im-sunil.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/im-sunil/im-sunil.github.io/issues"
+  },
+  "homepage": "https://github.com/im-sunil/im-sunil.github.io#readme"
+}

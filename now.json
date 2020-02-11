@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "im-sunil.github.io",
+  "build": {
+    "env": {
+      "MAILCHIMP_URL": "@mailchimp-url"
+    }
+  },
+  "env": {
+    "MAILCHIMP_URL": "@mailchimp-url"
+  },
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}

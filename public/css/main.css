@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+
+html,
+body {
+    @apply h-full;
+}
+
+#__next {
+    @apply h-full;
+}
+
+header nav a span {
+    font-size: 18px;
+}
+
+header nav ul li a {
+    font-size: 18px;
+}
+
+h1 {
+    @apply font-bold text-5xl mb-4;
+}
+
+h2 {
+    @apply font-bold text-3xl mb-4;
+}
+
+h3 {
+    @apply font-bold text-2xl mb-4;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    main {
+        margin-top: 130px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 860px;
+    }
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: 1.5rem;
+}
+
+ul:not(:last-child) {
+    @apply mb-6 list-disc mt-4 pl-4;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+@tailwind utilities;
+
+.ko-fi img {
+    width: 35px;
+}
+
+.twitter-follow-button {
+    margin-right: 0.5rem;
+}
+
+.project-link {
+    padding-top: 60%;
+}
+
+.scroll {
+    border-bottom: 2px solid #edf2f7 !important;
+}
+
+.active {
+    @apply text-gray-800;
+}
+
+.subscribe p:first-of-type {
+    @apply mb-0;
+}
+
+.active {
+    @apply block;
+}
+
+#latest-posts article {
+    @apply mt-8;
+}
+
+#posts article {
+    @apply mt-8;
+}
+
+.hero .logos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 4rem;
+    margin: 2rem 0;
+    justify-items: center;
+}
+
+@media screen and (max-width: 640px) {
+    .hero .logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
