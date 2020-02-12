@@ -13,7 +13,7 @@ export default () => {
     <Page title="Sunil Bagde - Web Developer & Writer">
       <Seo
         image="/img/me.jpg"
-        title="Sunil Bagde - Web Developer & Writer"
+        title="Sunil Bagde - Full-stack engineer & Writer"
         url={config.siteUrl}
         description={config.siteDescription}
       />
@@ -27,8 +27,10 @@ export default () => {
               Hi, I&apos;m Sunil.
             </h1>
             <p className="mt-0 mb-4">
-              I am a web developer & writer with a passion for PHP, Node &
-              JavaScript.
+              I am a Full-stack engineer & Writer with a passion for{" "}
+              <span className="text-gray-700 text-leading">
+                PHP, Node & JavaScript.
+              </span>
             </p>
             <div className="flex justify-start items-center text-gray-500">
               <a
