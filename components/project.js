@@ -12,7 +12,7 @@ export default class Project extends React.Component {
             >
               <img
                 className="absolute inset-0 block rounded-t md:shadow-lg-dark"
-                src="/img/project-im-sunil.jpg"
+                src="/img/project-im-sunil.png"
                 alt="Tailwind CSS"
               />
             </a>

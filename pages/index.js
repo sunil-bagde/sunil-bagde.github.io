@@ -3,6 +3,7 @@ import Header from "../components/header";
 import Project from "../components/project";
 
 import PostList from "../components/post-list";
+import MyExpertise from "../components/MyExpertise";
 import Page from "../components/page";
 import Seo from "../components/social-meta";
 import Footer from "../components/footer";
@@ -10,7 +11,7 @@ import config from "../site.config";
 
 export default () => {
   return (
-    <Page title="Sunil Bagde - Web Developer & Writer">
+    <Page title="Sunil Bagde - Full-stack engineer & Writer">
       <Seo
         image="/img/me.jpg"
         title="Sunil Bagde - Full-stack engineer & Writer"
@@ -66,76 +67,12 @@ export default () => {
             </div>
           </div>
         </div>
-
-        <ul className="exp-list flex items-baseline ju justify-between list-none mb-6">
-          <li className="  ">
-            <a>
-              <img src="/img/node-plain.svg" width="45" alt="Node Js" />
-            </a>
-            <h3 className="exp-title text-gray-600 border-t text-center ">
-              NodeJS
-            </h3>
-          </li>
-          <li className="">
-            <a>
-              <img src="/img/logo-react.png" width="45" alt="React Js" />
-            </a>
-            <h3 className="exp-title text-gray-600 border-t text-center ">
-              ReactJs
-            </h3>
-          </li>
-          <li className="">
-            <a>
-              <img src="/img/redux-logo.svg" width="45" alt="Redux js" />
-            </a>
-            <h3 className="exp-title text-gray-600 border-t text-center ">
-              ReduxJs
-            </h3>
-          </li>
-
-          <li className="">
-            <a>
-              <img
-                src="/img/larave-logo-mark-min.svg"
-                width="40"
-                alt="Laravel"
-              />
-            </a>
-            <h3 className="exp-title text-gray-600 border-t text-center ">
-              Laravel
-            </h3>
-          </li>
-
-          <li className="">
-            <a>
-              <img src="img/node-express.svg" width="45" alt="Expres Js" />
-            </a>
-            <h3 className="exp-title text-gray-600 border-t text-center ">
-              ExpresJs
-            </h3>
-          </li>
-
-          <li className="">
-            <a>
-              <img src="img/git.svg" alt="Git" />
-            </a>
-            <h3 className="exp-title text-gray-600 border-t text-center pt-">
-              Git
-            </h3>
-          </li>
-        </ul>
-
-        {/*     <div className="hero">
-          <h2 className="font-bold text-3xl mb-8  text-center">My Expertise</h2>
-          <div className="logos">
-            <img src="/img/node-plain.svg" width="45" alt="Node Js" />
-            <img src="/img/logo-react.png" width="45" alt="Rect Js" />
-            <img src="/img/redux-logo.svg" width="45" alt="Redux js" />
-            <img src="/img/larave-logo-mark-min.svg" width="40" alt="Laravel" />
-            <img src="img/node-express.svg" width="45" alt="Express js" />
-            <img src="img/git.svg" width="60" alt="Git" />
+        <section className="mt-8 mb-10" id="latest-posts">
+          <div className="container mx-auto">
+            <h2 className="font-bold text-3xl mb-8 text-left">My Expertise</h2>
+            <MyExpertise />
           </div>
-        </div>*/}
+        </section>
 
         <section className="mt-8 mb-10" id="latest-posts">
           <div className="container mx-auto">
