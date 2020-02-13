@@ -108,4 +108,39 @@ p:not(:last-child) {
     }
 }
 
+.list-none {
+    list-style-type: none !important;
+    padding-left: 0rem !important ;
+}
 
+.exp-list li > a {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp-title {
+    margin: 10px 0 0px;
+    padding-top: 0.7rem;
+
+    font-size: 0.9em;
+    position: relative;
+}
+@media screen and (max-width: 640px) {
+    .exp-title {
+        margin: 10px 0 0px;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+    }
+    .exp-list li {
+        width: 10%;
+        height: 0px;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .exp-title {
+        display: none;
+    }
+}

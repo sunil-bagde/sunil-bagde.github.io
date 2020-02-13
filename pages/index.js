@@ -67,7 +67,65 @@ export default () => {
           </div>
         </div>
 
-        <div className="hero">
+        <ul className="exp-list flex items-baseline ju justify-between list-none mb-6">
+          <li className="  ">
+            <a>
+              <img src="/img/node-plain.svg" width="45" alt="Node Js" />
+            </a>
+            <h3 className="exp-title text-gray-600 border-t text-center ">
+              NodeJS
+            </h3>
+          </li>
+          <li className="">
+            <a>
+              <img src="/img/logo-react.png" width="45" alt="React Js" />
+            </a>
+            <h3 className="exp-title text-gray-600 border-t text-center ">
+              ReactJs
+            </h3>
+          </li>
+          <li className="">
+            <a>
+              <img src="/img/redux-logo.svg" width="45" alt="Redux js" />
+            </a>
+            <h3 className="exp-title text-gray-600 border-t text-center ">
+              ReduxJs
+            </h3>
+          </li>
+
+          <li className="">
+            <a>
+              <img
+                src="/img/larave-logo-mark-min.svg"
+                width="40"
+                alt="Laravel"
+              />
+            </a>
+            <h3 className="exp-title text-gray-600 border-t text-center ">
+              Laravel
+            </h3>
+          </li>
+
+          <li className="">
+            <a>
+              <img src="img/node-express.svg" width="45" alt="Expres Js" />
+            </a>
+            <h3 className="exp-title text-gray-600 border-t text-center ">
+              ExpresJs
+            </h3>
+          </li>
+
+          <li className="">
+            <a>
+              <img src="img/git.svg" alt="Git" />
+            </a>
+            <h3 className="exp-title text-gray-600 border-t text-center pt-">
+              Git
+            </h3>
+          </li>
+        </ul>
+
+        {/*     <div className="hero">
           <h2 className="font-bold text-3xl mb-8  text-center">My Expertise</h2>
           <div className="logos">
             <img src="/img/node-plain.svg" width="45" alt="Node Js" />
@@ -77,7 +135,7 @@ export default () => {
             <img src="img/node-express.svg" width="45" alt="Express js" />
             <img src="img/git.svg" width="60" alt="Git" />
           </div>
-        </div>
+        </div>*/}
 
         <section className="mt-8 mb-10" id="latest-posts">
           <div className="container mx-auto">
