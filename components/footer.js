@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
         </div>
         <div className="flex items-center justify-center">
           <a
-            href="https://github.com/im-sunil"
+            href="https://github.com/thesunilbagde"
             className="text-gray-500 mr-2 ml-2 hover:text-blue-400"
             target="_blank"
             rel="noopener noreferrer"

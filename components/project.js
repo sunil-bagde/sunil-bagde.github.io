@@ -7,7 +7,7 @@ export default class Project extends React.Component {
         <div className="md:flex">
           <div className="md:w-1/2 md:pt-16 md:pr-0 md:pl-12">
             <a
-              href="https://github.com/im-sunil/im-sunil.github.io"
+              href="https://github.com/thesunilbagde/thesunilbagde.github.io"
               className="project-link block relative"
             >
               <img
@@ -20,7 +20,7 @@ export default class Project extends React.Component {
           <div className="px-6 pt-8 pb-6 md:w-1/2 md:px-12 md:py-8 md:flex md:items-center">
             <div>
               <div className="text-white antialiased text-xl md:text-2xl font-medium">
-                im-sunil.github.io
+                thesunilbagde.github.io
               </div>
               <div className="mt-2 md:mt-3 text-white antialiased text-sm md:text-md leading-tight md:leading-normal opacity-75">
                 I wanted to redesign my website and give it a much needed face

@@ -1,9 +1,9 @@
 {
-  "name": "im-sunil.github.io",
+  "name": "thesunilbagde.github.io",
   "private": false,
   "description": "Personal website running on Next.js & React.",
-  "version": "0.1.0",
-  "author": "Sunil Bagde <hello@im-sunil.github.io>",
+  "version": "0.1.1",
+  "author": "Sunil Bagde <hello@thesunilbagde.github.io>",
   "dependencies": {
     "@mdx-js/loader": "^1.5.3",
     "@mdx-js/react": "^1.5.5",
@@ -64,10 +64,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/im-sunil/im-sunil.github.io.git"
+    "url": "git+https://github.com/thesunilbagde/thesunilbagde.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/im-sunil/im-sunil.github.io/issues"
+    "url": "https://github.com/thesunilbagde/thesunilbagde.github.io/issues"
   },
-  "homepage": "https://github.com/im-sunil/im-sunil.github.io#readme"
+  "homepage": "https://github.com/thesunilbagde/thesunilbagde.github.io#readme"
 }
