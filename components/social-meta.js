@@ -12,6 +12,9 @@ export default ({ title, description, image, url }) => (
     {url && <meta name="og:url" content={url} />}
     {description && <meta name="description" content={description} />}
     {description && <meta name="og:description" content={description} />}
-    <meta name="og:image" content={`https://im-sunil.github.io/img/me.jpg`} />
+    <meta
+      name="og:image"
+      content={`https://thesunilbagde.github.io/img/me.jpg`}
+    />
   </Head>
 );

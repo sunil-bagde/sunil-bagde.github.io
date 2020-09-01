@@ -1,4 +1,4 @@
-# im-sunil.github.io
+# thesunilbagde.github.io
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,7 +18,7 @@ Feel free to submit a pull request if you notice anything that needs to be addre
 
 ## Author
 
--   [Sunil Bagde](https://im-sunil.github.io)
+-   [Sunil Bagde](https://thesunilbagde.github.io)
 
 ## License
 
