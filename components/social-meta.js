@@ -3,7 +3,7 @@ import Head from "next/head";
 
 export default ({ title, description, image, url }) => (
   <Head>
-    <meta name="twitter:site" content="@iamsunil786" />
+    <meta name="twitter:site" content="@thesunilbagde" />
     <meta
       name="twitter:card"
       content={image ? "summary_large_image" : "summary"}

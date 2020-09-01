@@ -6,7 +6,7 @@ const website = {
   sitePostsUrl: "https://thesunilbagde.github.io/posts/",
   siteAuthor: "Sunil Bagde",
   siteAuthorImage: "img/profile.jpg",
-  twitterAccount: "@iamsunil786",
+  twitterAccount: "@thesunilbagde",
 };
 
 module.exports = website;

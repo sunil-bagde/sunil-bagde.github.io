@@ -22,7 +22,9 @@ export default function PostLayout({ meta, children }) {
 
   const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(
     meta.title
-  )}&url=${config.siteUrl}/posts/${convertToSlug(meta.title)}/&via=iamsunil786`;
+  )}&url=${config.siteUrl}/posts/${convertToSlug(
+    meta.title
+  )}/&via=thesunilbagde`;
 
   return (
     <Page title={`${meta.title} - Sunil Bagde`}>

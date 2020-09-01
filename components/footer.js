@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
             GitHub
           </a>
           <a
-            href="https://twitter.com/iamsunil786"
+            href="https://twitter.com/thesunilbagde"
             className="text-gray-500 mr-2 ml-2 hover:text-blue-400"
             target="_blank"
             rel="noopener noreferrer"

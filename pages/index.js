@@ -51,7 +51,7 @@ export default () => {
               </a>
               <a
                 className="flex items-center block mr-5 hover:text-gray-700"
-                href="https://twitter.com/iamsunil786"
+                href="https://twitter.com/thesunilbagde"
                 target="_blank"
                 rel="noopener noreferrer"
               >
