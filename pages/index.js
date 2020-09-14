@@ -24,7 +24,7 @@ export default () => {
       <main className=" flex-grow container mx-auto xs:px-4 sm:px-4 md:px-4 lg:px-0 md:mt-20 lg:mt-20">
         <div className="intro lg:pt-20 lg:pb-10 mb-10">
           <div className="flex flex-col">
-            <h1 className="font-bold text-6xl xs:text-5xl sm:text-5xl">
+            <h1 className="font-bold text-6xl xs:text-5xl sm:text-5xl text-gray-700">
               Hi, I&apos;m Sunil.
             </h1>
             <p className="mt-0 mb-4">
@@ -69,23 +69,27 @@ export default () => {
         </div>
         <section className="mt-8 mb-10" id="latest-posts">
           <div className="container mx-auto">
-            <h2 className="font-bold text-3xl mb-8 text-left">My Expertise</h2>
+            <h2 className="font-bold text-3xl mb-8 text-left text-gray-700">
+              My Expertise
+            </h2>
             <MyExpertise />
           </div>
         </section>
 
         <section className="mt-8 mb-10" id="latest-posts">
           <div className="container mx-auto">
-            <h2 className="font-bold text-3xl mb-8 text-left">Latest Posts</h2>
+            <h2 className="font-bold text-3xl mb-8 text-left text-gray-700">
+              Latest Posts
+            </h2>
             <PostList />
           </div>
         </section>
 
         <hr className="border bg-green-100" />
 
-        <section className="mt-8 mb-16">
+        <section className="mt-8 mb-16  text-gray-700">
           <div className="container mx-auto">
-            <h2 className="font-bold text-3xl mb-8 text-left">
+            <h2 className="font-bold text-3xl mb-8 text-left  text-gray-700">
               Latest Projects
             </h2>
             <Project />
