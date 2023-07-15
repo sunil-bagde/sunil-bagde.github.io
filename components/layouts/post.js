@@ -24,7 +24,7 @@ export default function PostLayout({ meta, children }) {
     meta.title
   )}&url=${config.siteUrl}/posts/${convertToSlug(
     meta.title
-  )}/&via=thesunilbagde`;
+  )}/&via=sunil-bagde`;
 
   return (
     <Page title={`${meta.title} - Sunil Bagde`}>

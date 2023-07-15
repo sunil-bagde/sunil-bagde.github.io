@@ -36,7 +36,7 @@ export default () => {
             <div className="flex justify-start items-center text-gray-500">
               <a
                 className="flex items-center block mr-5 hover:text-gray-700"
-                href="https://github.com/thesunilbagde"
+                href="https://github.com/sunil-bagde"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -51,7 +51,7 @@ export default () => {
               </a>
               <a
                 className="flex items-center block mr-5 hover:text-gray-700"
-                href="https://twitter.com/thesunilbagde"
+                href="https://twitter.com/sunil-bagde"
                 target="_blank"
                 rel="noopener noreferrer"
               >

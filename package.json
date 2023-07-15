@@ -2,7 +2,7 @@
   "name": "sunil-bagde.github.io",
   "private": false,
   "description": "Personal website running on Next.js & React.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Sunil Bagde <hello@sunil-bagde.github.io>",
   "dependencies": {
     "@mdx-js/loader": "^1.5.3",
